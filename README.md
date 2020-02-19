@@ -1,6 +1,6 @@
 <p align="center"><img src="https://recair.cl/img/logo.jpg" width="400"></p>
 
-## Pagina web de recair
+# Pagina web de recair
 
 Proyecto realizado para el manejo de inventario mediante una pagina web autoadministrable para el negocio recair de Angol
 
@@ -11,7 +11,17 @@ Proyecto realizado para el manejo de inventario mediante una pagina web autoadmi
 - API de google sheets
 - Base de datos MySQL
 
-# Uso de google sheets en laravel
+## Subir la pagina al hosting
+TODO: implementar sh file con ftp y wea para subir mas facil
+
+Para subir la pagina a un hosting se debe limpiar primero con los siguientes comandos:
+```
+php artisan route:clear
+php artisan config:clear
+php artisan cache:clear
+```
+
+## Uso de google sheets en laravel
 
 Primero se debe instalar la siguiente dependencia
 ```
