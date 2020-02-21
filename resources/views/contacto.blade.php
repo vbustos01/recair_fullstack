@@ -6,14 +6,19 @@
 
     <section>
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 text-center">
                 <h2 class="text-center">Formulario de contacto:</h2>
                 <hr>
                 <p>Mediante este formulario te pondras en contacto con nosotros inmediatamente, deja tu numero de telefono y se descriptivo con lo 
                 que deseas cotizar, de esa forma te podremos ayudar de manera más agil.</p>
-                <div class="btn btn-success">
-                    <i class="fab fa-whatsapp"> Whatsapp </i>
-                </div>
+                <hr>
+                <h3>Encuentranos en Whatsapp</h3>
+                <a href="https://api.whatsapp.com/send?phone=123456789&text=caca">
+                    <div class="btn btn-success text-center">
+                        <i class="fab fa-whatsapp"> Whatsapp </i>
+                    </div>
+                </a>
+
             </div>
 
             {{-- formulario de contacto --}}

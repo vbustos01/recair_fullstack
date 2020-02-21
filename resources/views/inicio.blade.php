@@ -20,10 +20,10 @@
 
 	          <!--Grid column-->
 	          <div class="col-md-6 mb-4">
-	            <h3 class="h3 mb-3">En recair conocemos La mejor solucion para climatizar tu hogar y tu negocio.</h3>
+	            <h3 class="h3 mb-3">En recair conocemos la mejor solucion para climatizar tu hogar y tu negocio.</h3>
 	            <hr>
-	            <p>Nuestro equipo esta conformado por Ingenieros y tecnicos especializados en el area de la refrigeracion y calefaccion, ademas contamos con 
-	            años de experiencia en el rubro, por lo cual somos una opcion seria para cumplir tus requerimientos.</p>
+	            <p>Nuestro equipo esta conformado por Ingenieros y tecnicos especializados en el area de la refrigeración y calefacción, ademas contamos con 
+	            años de experiencia en el rubro, por lo cual somos una opción seria para cumplir tus requerimientos.</p>
 	            <a  href="{{route('contacto')}}" class="btn btn-grey btn-md">Contactanos</a>
 	            <a  href="{{route('servicios')}}" class="btn btn-grey btn-md">Nuestros servicios</a>
 
@@ -39,7 +39,7 @@
 
 	<!--Servicios principales-->
 	<section>
-	        <h3 class="h3 text-center mb-5">La Climatización es lo nuestro</h3>
+	        <h3 class="h3 text-center mb-5 text">La Climatización es lo nuestro</h3>
 
 	        <div class="row wow fadeIn">
 

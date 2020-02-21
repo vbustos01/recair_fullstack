@@ -27,22 +27,31 @@
       <hr>
 
       <section>
-        <div class="jumbotron">
-          <h3 class="display-4">Nuestro compromiso es con nuestros clientes</h3>
-
           <div class="row">
-            <div class="col-6">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+
+              <img src="{{asset('img/familia.jpg')}}" class="img-fluid z-depth-1-half"
+                alt="Recair">
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <h3 class="h3 mb-3">Nuestro compromiso es con nuestros clientes</h3>
               <hr>
               <p>En Recair nuestro equipo cuenta con experiencia y conocimiento en el area suficientes para innovar y ofrecer soluciones
                ecoamigables con el fin de cuidar nuestro medio ambiente, tenemos una politica de trabajo orientada al cliente.</p>
-            </div>
 
-            <div class="col-6">
-              <img src="{{asset('img/familia.jpg')}}">
             </div>
-          </div>
-        </div>
+            <!--Grid column-->
+
+          </div>      
       </section>
+
+
 
       <hr>
 
@@ -56,6 +65,8 @@
           </strong></p>
         </div>
       </section>
+
+
 
 
 @endsection

@@ -95,7 +95,7 @@
                       <!-- Authentication Links -->
                       @guest
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesion') }}</a>
+                              <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesión') }}</a>
                           </li>
                       @else
                           <li class="nav-item dropdown">
@@ -152,13 +152,10 @@
                 <!-- Content -->
                 <div class="text-center white-text mx-5 wow fadeIn">
                   <h1 class="mb-4">
-                    <strong>Refrigeracion y calefaccion Domiciliaria</strong>
+                    <strong>Refrigeración y calefacción domiciliaria</strong>
                   </h1>
                   <p>
                     <strong>En Recair tenemos la mejor solucion para tu vivienda, olvidate de los inviernos frios o de los veranos calurosos.</strong>
-                  </p>
-                  <p class="mb-4 d-none d-md-block">
-                    <strong>Te ayudamos a encontrar una solucion</strong>
                   </p>
                   <a href="{{route('contacto')}}" class="btn btn-outline-white btn-lg">Cotiza sin compromiso</a>
                 </div>
@@ -216,12 +213,8 @@
                     <strong>Realiza tu proyecto con nosotros</strong>
                   </h1>
 
-                  <p>
-                    <strong>¡23°C todo el año!</strong>
-                  </p>
-
                   <p class="mb-4 d-none d-md-block">
-                    <strong>No importa si se trate de calefaccion o refrigeracion, nosotros tenemos la solucion que buscas</strong>
+                    <strong>¡23°C todo el año!, no importa si se trate de calefaccion o refrigeracion, nosotros tenemos la solucion que buscas</strong>
                   </p>
 
                   <a  href="{{route('contacto')}}" class="btn btn-outline-white btn-lg">Cotiza sin compromiso</a>
